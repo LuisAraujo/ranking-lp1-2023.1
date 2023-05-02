@@ -1,0 +1,138 @@
+<html>
+<head>
+<style>
+	@font-face {
+		font-family: "SourceSansPro";
+		src: local("font"),
+		url("font/SourceSansPro-Regular.ttf") 
+	}
+	
+	body{
+		font-family: "SourceSansPro";
+	}
+
+	.head{
+		background: #ccc;
+		font-weight: bold;
+	}
+
+	.row{
+		vertical-align: middle;
+		height: 54px;
+		line-height: 50px;
+		/*width: 1320px;*/
+	}
+
+	.row:hover{
+		background-color: #eee;
+	}
+	
+	.column{
+		width: 7.6%;
+		height: 100%;
+		border-right: 1px solid #ddd;
+		float: left;
+		text-align: center;
+		padding-top: 2px;
+	}
+	
+	.avatar{
+		width: 50px;
+		height: 50px;
+		margin-left: 25px;
+		border-radius: 50%;
+		background-image: url("avatars/default.png");
+		background-size:contain;
+		background-repeat: no-repeat;
+	}
+
+
+	.badges{
+		width: 40px;
+		height: 40px;
+		margin-left: 30px;
+		margin-top: 5px;
+		background-size:contain;
+		background-repeat: no-repeat;
+	}
+
+	#coins{
+		background-image: url("badges/lp_coins.png");
+	}
+
+	#conselheiro{
+		background-image: url("badges/conselheiro.png");
+	}
+
+	#finalista{
+		background-image: url("badges/finalista.png");
+	}
+
+
+	#gladiador{
+		background-image: url("badges/gladiador.png");
+	}
+
+	#conquista{
+		background-image: url("badges/conquista.png");
+	}
+
+	#velocista{
+		background-image: url("badges/veloz_badges.png");
+	}
+
+	#tudodias{
+		background-image: url("badges/papiro.png");
+	}
+
+	#rei{
+		background-image: url("badges/reigit_badges.png");
+	}
+
+
+	
+</style>
+</head>
+
+<body>
+
+<div>
+
+<div class="row head">
+	<div class="column">Pos.</div>
+	<div class="column">Avatar</div>
+	<div class="column">Nickname</div>
+	<div class="column" title="Coins (LP$)">
+		<div id="coins" class="badges"></div>
+	</div>
+	<div class="column" title="Velocista">
+		<div id="velocista" class="badges"></div>
+	</div>
+	<div class="column" title="Tudo em Dias">
+		<div id="tudodias" class="badges"></div>
+	</div>
+	<div class="column" title="O rei/rainha do Portifolio">
+		<div id="rei" class="badges"></div>
+	</div>
+	<div class="column" title="Gladiador(a) da rodada">
+		<div id="gladiador" class="badges"></div>
+	</div>
+	<div class="column" title="Conselheiro(a)">
+		<div id="conselheiro" class="badges"></div>
+	</div>
+	<div class="column" title="Conquistador(a) do class">
+		<div id="conquista" class="badges"></div>
+	</div>
+	<div class="column" title="Finalista">
+		<div id="finalista" class="badges"></div>
+	</div>
+	<div class="column" title="Danos">Danos</div>
+	<div class="column" >Total Badges</div>
+</div>
+<div id="container-row">
+</div>
+
+<script src="script.js"></script>
+</body>
+
+</html>
