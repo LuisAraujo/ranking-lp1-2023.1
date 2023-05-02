@@ -1,18 +1,18 @@
-﻿AVATAR;NICKNAME;LPS;VELOCISTA;TUDOEMDIAS;REIPORTIFOLIO;GLADIADOR;CONSELHEIRO;CONQUISTADOR;FINALISTA;DANOS;TOTAL;
-ja.jpg;JA;1;1;0;0;0;0;0;0;0;2;SOMA(C2:J2) - K2
-default.png;RRS;0;1;0;0;0;0;0;0;0;1;
-default.png;NA;0;1;0;0;0;0;0;0;0;1;
-default.png;JM;0;0;0;0;0;0;0;0;0;0;
-;;;;;;;;;;;0;
-;;;;;;;;;;;0;
-;;;;;;;;;;;0;
-;;;;;;;;;;;0;
-;;;;;;;;;;;0;
-;;;;;;;;;;;0;
-;;;;;;;;;;;0;
-;;;;;;;;;;;0;
-;;;;;;;;;;;0;
-;;;;;;;;;;;0;
-;;;;;;;;;;;0;
-;;;;;;;;;;;0;
-;;;;;;;;;;;0;
+﻿AVATAR;NOME;NICKNAME;LPS;VELOCISTA;TUDOEMDIAS;REIPORTIFOLIO;GLADIADOR;CONSELHEIRO;CONQUISTADOR;FINALISTA;DANOS;TOTAL;LPS GASTOS;POCAO;COLAR;RITUAL;PAPIRO;CAPA
+ja.jpg;José Assis;JA;1;1;0;0;0;0;0;0;0;2;0;0;0;0;0;0
+default.png;Rafaela Rodrigues Santos;RRS;0;1;0;0;0;0;0;0;0;1;0;0;0;0;0;0
+default.png;Angelo Nunes;NA;0;1;0;0;0;0;0;0;0;1;0;0;0;0;0;0
+default.png;Joao Martins;JM;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+grs.jpg;gabrielle rosa;GRS;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+default.png;;[[EMPTY]];0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+default.png;;[[EMPTY]];0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+default.png;;[[EMPTY]];0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+default.png;;[[EMPTY]];0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+default.png;;[[EMPTY]];0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+default.png;;[[EMPTY]];0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+default.png;;[[EMPTY]];0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+default.png;;[[EMPTY]];0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+default.png;;[[EMPTY]];0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+default.png;;[[EMPTY]];0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+default.png;;[[EMPTY]];0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+default.png;;[[EMPTY]];0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0

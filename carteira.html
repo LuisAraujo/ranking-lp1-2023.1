@@ -1,0 +1,125 @@
+<html>
+<head>
+<style>
+	@font-face {
+		font-family: "SourceSansPro";
+		src: local("font"),
+		url("font/SourceSansPro-Regular.ttf") 
+	}
+	
+	body{
+		font-family: "SourceSansPro";
+	}
+
+	.head{
+		background: #ccc;
+		font-weight: bold;
+	}
+
+	.row{
+		width: 1015px;
+		display: block;
+		vertical-align: middle;
+		height: 54px;
+		line-height: 50px;
+
+	}
+
+	.row:hover{
+		background-color: #eee;
+	}
+	
+	.column{
+		width: 100px;
+		height: 100%;
+		border-right: 1px solid #ddd;
+		float: left;
+		text-align: center;
+		padding-top: 2px;
+	}
+	
+	.avatar{
+		width: 50px;
+		height: 50px;
+		margin-left: 25px;
+		border-radius: 50%;
+		background-image: url("avatars/default.png");
+		background-size:contain;
+		background-repeat: no-repeat;
+	}
+
+
+	.badges{
+		width: 40px;
+		height: 40px;
+		margin-left: 30px;
+		margin-top: 5px;
+		background-size:contain;
+		background-repeat: no-repeat;
+	}
+
+	#coins{
+		background-image: url("badges/lp_coins.png");
+	}
+
+	#coins_plus{
+		background-image: url("badges/lp_coins_p.png");
+	}
+
+	#coins_less{
+		background-image: url("badges/lp_coins_l.png");
+	}
+
+	#pocao{
+		background-image: url("badges/pocao.png");
+	}
+
+	#capa{
+		background-image: url("badges/capa.png");
+	}
+
+	#ritual{
+		background-image: url("badges/ritual.png");
+	}
+
+</style>
+</head>
+
+<body>
+
+<div class="row head">
+
+	<div class="column">Avatar</div>
+	<div class="column">Nickname</div>
+	<div class="column" title="Coins (LP$) Ganhos">
+		<div id="coins_plus" class="badges"></div>
+	</div>
+	<div class="column" title="Coins (LP$) Gastos">
+		<div id="coins_less" class="badges"></div>
+	</div>
+	<div class="column" title="Coins (LP$)">
+		<div id="coins" class="badges"></div>
+	</div>
+	<div class="column" title="Poção Remove Falta">
+		<div id="pocao" class="badges"></div>
+	</div>
+	<div class="column" title="Colar de Proteção contra envio em atraso">
+		<div id="colar" class="badges"></div>
+	</div>
+	<div class="column" title="Ritual para eliminação de questão da prova">
+		<div id="ritual" class="badges"></div>
+	</div>
+	<div class="column" title="Papiro com soluçao">
+		<div id="papiro" class="badges"></div>
+	</div>
+	<div class="column" title="Capa da Invisibilidade">
+		<div id="capa" class="badges"></div>
+	</div>
+</div>
+<div id="container-row">
+</div>
+
+<script src="script2.js"></script>
+</body>
+
+</html>

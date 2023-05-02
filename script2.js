@@ -29,21 +29,19 @@ function show(csv){
     for(i=1; i< csv.length; i++) {
         csv_line = csv[i];
         text += '<div class="row">'
-        text += '<div class="column">#'+i+'</div>'
         text += '<div class="column">';
         text += '<div style="background-image: url(\'avatars/' + csv_line[0] + '\')" class="avatar"></div></div>';
         text += '<div class="column">' + csv_line[2] + '</div> ';
         text += '<div class="column">' + csv_line[3] + '</div> ';
-        text += '<div class="column">' + csv_line[4] + '</div> ';
-        text += '<div class="column">' + csv_line[5] + '</div> ';
-        text += '<div class="column">' + csv_line[6] + '</div> ';
-        text += '<div class="column">' + csv_line[7] + '</div> ';
-        text += '<div class="column">' + csv_line[8] + '</div> ';
-        text += '<div class="column">' + csv_line[9] + '</div> ';
-        text += '<div class="column">' + csv_line[10] + '</div> ';
-        text += '<div class="column">' + csv_line[11] + '</div> ';
-        text += '<div class="column">' + csv_line[12] + '</div> </div>';
-    }
+        text += '<div class="column">' + csv_line[13] + '</div> ';
+        text += '<div class="column">' + ( parseInt(csv_line[3]) - parseInt(csv_line[13]) ) + '</div> ';
+        text += '<div class="column">' + csv_line[14] + '</div> ';
+        text += '<div class="column">' + csv_line[15] + '</div> ';
+        text += '<div class="column">' + csv_line[16] + '</div> ';
+        text += '<div class="column">' + csv_line[17] + '</div> ';
+        text += '<div class="column">' + csv_line[18] + '</div> ';
+        text += '</div> ';
+      }
     elem.innerHTML = text;
 }
 
