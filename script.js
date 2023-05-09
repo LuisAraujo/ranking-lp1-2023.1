@@ -57,5 +57,5 @@ xhr.onreadystatechange = function() {
     }
 };
 
-xhr.open('GET', 'badges/ranking_csv.csv', true);
+xhr.open('GET', 'data/ranking_csv.csv', true);
 xhr.send();
