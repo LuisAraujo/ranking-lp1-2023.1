@@ -1,18 +1,22 @@
-﻿AVATAR;NOME;NICKNAME;LPS;VELOCISTA;TUDOEMDIAS;REIPORTIFOLIO;GLADIADOR;CONSELHEIRO;CONQUISTADOR;FINALISTA;DANOS;TOTAL;LPS GASTOS;POCAO;COLAR;RITUAL;PAPIRO;CAPA
-ja.jpg;José Assis;JA;1;1;0;0;0;0;0;0;0;2;0;0;0;0;0;0
-default.png;Rafaela Rodrigues Santos;RRS;0;1;0;0;0;0;0;0;0;1;0;0;0;0;0;0
-default.png;Angelo Nunes;NA;0;1;0;0;0;0;0;0;0;1;0;0;0;0;0;0
-default.png;Joao Martins;JM;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
-grs.jpg;gabrielle rosa;GRS;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
-sg.png;Helder Araujo Silva;Sigrid;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
-sh.png;Hebert Alves de Santana Almeida;ShareFolder;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
-ym.jpg;Pedro Emanoel Braz Batista;Ymir11011;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
-gu.jpg;Gustavo da Silva Ferreira;Gutis007;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
-default.png;Yasmim Barros de Jesus;Yas;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
-jh.jpg;ana clara santos de santana;johncena;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
-default.png;Rafaela Rodrigues Santos Souza;Student97;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
-da.jpg;Arlindo Gomes da silva Neto;Different_Air;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
-default.png;;[[EMPTY]];0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
-default.png;;[[EMPTY]];0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
-default.png;;[[EMPTY]];0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
-default.png;;[[EMPTY]];0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+﻿AVATAR;NOME;NICKNAME;LPS;VELOCISTA;TUDOEMDIAS;REIPORTIFOLIO;GLADIADOR;CONSELHEIRO;CONQUISTADOR;FINALISTA;DANOS;TOTAL;LPS GASTOS;POCAO;COLAR;RITUAL;PAPIRO;CAPA;POS;POS2
+ja.jpg;José Assis;JA;1;1;1;4;0;0;0;0;0;6;0;0;0;0;0;0;1;1
+el.jpg;Matheus Amorim de Oliveira Almeida;Showmaker;1;0;1;4;0;0;0;0;0;5;0;0;0;0;0;0;15;2
+default.png;Angelo Nunes;NA;0;1;1;0;0;0;1;0;0;3;0;0;0;0;0;0;3;3
+sg.png;Helder Araujo Silva;Sigrid;1;0;1;1;0;0;1;0;0;3;0;0;0;0;0;0;6;4
+ym.jpg;Pedro Emanoel Braz Batista;Ymir11011;0;0;1;1;0;0;1;0;0;3;0;0;0;0;0;0;8;5
+default.png;Yasmim Barros de Jesus;Yas;1;0;1;1;0;0;1;0;0;3;0;0;0;0;0;0;10;6
+da.jpg;Arlindo Gomes da silva Neto;Different_Air;1;0;1;1;0;0;0;0;0;2;0;0;0;0;0;0;13;7
+gu.jpg;Gustavo da Silva Ferreira;Gutis007;1;0;1;1;0;0;0;0;0;2;0;0;0;0;0;0;9;8
+default.png;Rafaela Rodrigues Santos;RRS;0;1;1;0;0;0;0;0;0;2;0;0;0;0;0;0;2;9
+rf.png;Rodrigo Dórea Felix;Rodrigo Faro;0;0;1;1;0;0;0;0;0;2;0;0;0;0;0;0;20;10
+default.png;Alexsandro Da Rosa Lima Nunes;Newgate;0;0;1;0;0;0;0;0;0;1;0;0;0;0;0;0;19;11
+eu.jpeg;Erielton Oliveira de Freitas Filho;Eltinho Uchiha;1;0;1;0;0;0;0;0;0;1;0;0;0;0;0;0;21;12
+grs.jpg;gabrielle rosa;GRS;1;0;1;0;0;0;0;0;0;1;0;0;0;0;0;0;5;13
+default.png;João Elias Ferreira de Oliveira;eliasfrr;0;0;1;0;0;0;0;0;0;1;0;0;0;0;0;0;14;14
+default.png;Joao Martins;JM;0;0;1;0;0;0;0;0;0;1;0;0;0;0;0;0;4;15
+ps.jpeg;Pedro Lucas Sena Pinho;PedrinhoSacana;1;0;1;0;0;0;0;0;0;1;0;0;0;0;0;0;16;16
+sl.jpeg;Victor Moreira dos Santos;ShadowLord;0;0;1;0;0;0;0;0;0;1;0;0;0;0;0;0;17;17
+default.png;Rafaela Rodrigues Santos Souza;Student97;1;0;1;0;0;0;0;0;0;1;0;0;0;0;0;0;12;18
+default.png;America Alves de Almeida Silva;Mel Alves;1;0;0;0;0;0;1;0;2;-1;0;0;0;0;0;0;18;19
+jh.jpg;ana clara santos de santana;johncena;0;0;0;1;0;0;0;0;2;-1;0;0;0;0;0;0;11;20
+sh.png;Hebert Alves de Santana Almeida;ShareFolder;1;0;0;0;0;0;0;0;2;-2;0;0;0;0;0;0;7;21

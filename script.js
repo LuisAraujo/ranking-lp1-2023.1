@@ -28,8 +28,18 @@ function show(csv){
     text = '';
     for(i=1; i< csv.length; i++) {
         csv_line = csv[i];
-        text += '<div class="row">'
-        text += '<div class="column">#'+i+'</div>'
+        text += '<div class="row">';
+
+
+        classpos = "";
+        console.log(csv_line[19], csv_line[20]);
+
+        if(parseInt(csv_line[19]) > parseInt(csv_line[20]))
+            classpos = "up";
+        else if(parseInt(csv_line[19]) < parseInt(csv_line[20]))
+            classpos = "down";
+
+        text += '<div class="column">#'+i+' <span class="'+ classpos +'"> </span></div>'
         text += '<div class="column">';
         text += '<div style="background-image: url(\'avatars/' + csv_line[0] + '\')" class="avatar"></div></div>';
         text += '<div class="column">' + csv_line[2] + '</div> ';
